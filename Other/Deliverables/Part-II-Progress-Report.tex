@@ -1,0 +1,100 @@
+% Note: this file can be compiled on its own, but is also included by
+% diss.tex (using the docmute.sty package to ignore the preamble)
+\documentclass[12pt,a4paper,twoside]{article}
+\usepackage[pdfborder={0 0 0}]{hyperref}
+\usepackage[margin=25mm]{geometry}
+\usepackage{graphicx}
+\usepackage{parskip}
+\begin{document}
+
+\centerline{\large Predicting the outcomes of English Premier League matches}
+\centerline{\large Computer Science -- Part II -- Progress Report}
+\vspace{0.2in}
+
+\centerline{Joseph Marchant (jm2129)}
+\centerline{Robinson College}
+\centerline{30 January 2019}
+
+\vspace{0.2in}
+
+
+\begin{tabular}[t]{@{}l}
+{\bf Project Supervisor:} Helena Andres-Terre\\[3mm]
+{\bf Director of Studies:} Prof.\ Alan Mycroft
+\end{tabular}
+\hfill
+\begin{tabular}[t]{@{}l @{}l}
+{\bf Overseers: } & Prof.\ A.\ M.\ Pitts \\[3mm]
+& Dr R.\ Mantuik
+\end{tabular}
+
+% Main document
+
+\section*{Success Criteria}
+
+The initial success criteria was to reach a 40\% prediction accuracy on the following problem: Given data that is only known before a specific Premier League (PL) match, predict the outcome from the three options: "H" (Home Team Win), "D" (Draw) and "A" (Away Team Win).
+
+My latest iteration achieves an accuracy exceeding 48\%, thus I have achieved my success criteria. There were still multiple sources of delay, mainly involving indecisiveness on what data to use and how to represent it, as well as issues with messy data.
+
+\section*{Work Completed}
+
+\begin{itemize}
+    \item 
+    {
+    \textbf{Data Collection} - 11v11.com and prem.com required scraping from over 10000 pages scraped per site (1 per match). football-data.com supplied 26 csvs covering lots of meta data. I also got data from various websites and wikipedia using scraping and manual collection.
+    }
+    \item
+    {
+    \textbf{Data Cleaning} - Main issues were missing data and disagreeing values between data sets. Made more difficult by chronological style of data where some data points depend on past data points, meaning data needed to be perfect.
+    }
+    \item
+    {
+    \textbf{Initial Dataset} - I wrote code to generate the PL standings given a set of games, giving me meta data about the teams in every match. The final dataset covered 5 statistics: Position, Goals Per Game, Goals Conceded Per Game, Points Per Game and Clean Sheets Per Game. Each was represented as the difference = (Home Team Stat - Away Team Stat), giving 5 features. The target variable was the outcome from {H,D,A}.
+    }
+    \item
+    {
+    \textbf{Models and Evaluation} - Worked with Logistic Regression on a binary representation of the problem: "Did the home team win?". I.e. {H} = 1, {D,A} = 0. This achieved a 60\%+ accuracy. I then built a Neural Network (NN) with Tensorflow. The best performing one achieved a 49\% accuracy on the {H,D,A} problem. I also generated evaluation metrics for each model such as Accuracy, Precision, Recall and a Confusion Matrix.
+    }
+    
+    
+\end{itemize}
+
+I am around 2-4 weeks behind the initial schedule, however I hit my success criteria earlier than expected due to an effective first approach. Therefore I will be slightly altering my work plan.
+
+\section*{New Work Plan}
+
+\begin{enumerate}
+
+\item \textbf{Lent weeks 2--4: Jan 31 - Feb 13} Decide on around 10 new features for data. Collect data, clean and merge with current data. Test out data on a couple simple (non-NN) models.
+
+\item \textbf{Lent weeks 4--6: Feb 14 - Feb 27} Build a more complex NN model for this new data. Apply tweaks and optimise both the model and the data set.
+
+\end{enumerate}
+
+Rest the same as before (building a full evaluation report, then mainly focusing on the dissertation and extensions where possible).
+
+\section*{New Extensions}
+
+After seeing the progress on the project, there are some alternative/ extra extensions I would like to work towards:
+
+\begin{itemize}
+    \item 
+    {
+    Split data based on the difference in league position between the two teams. This will allow 2 different models to be created, picking up different patterns in the data depending on the game stats.
+    }
+    \item
+    {
+    Experiment with building two models that solve the binary problem "Did this team Win, yes or no?" for each team, then predicting the 3-class classification based on these.
+    }
+    \item
+    {
+    Experiment with Feature Selection Using Permutation Importance.
+    }
+    \item
+    {
+    Generate some more advanced Evaluation Metrics on the final system such as the ROC Curve and looking at Precision vs Recall.
+    }
+\end{itemize}
+
+\end{document}
+
