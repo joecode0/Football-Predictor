@@ -1,0 +1,27 @@
+Columns:
+
+Some ID as a number
+
+Date: DDMMYYYY
+
+Season: S, decided by: 1992-93 = 1, 1993-94 = 2, ... , 2017-18 = 26
+
+HomeTeam: {'arsenal', 'aston villa', 'barnsley', 'birmingham', 'blackburn', 'blackpool', 'bolton', 'bournemouth', 'bradford', 'brighton', 'burnley', 'cardiff', 'charlton', 'chelsea', 'coventry', 'crystal palace', 'derby', 'everton', 'fulham', 'huddersfield', 'hull','ipswich', 'leeds', 'leicester', 'liverpool', 'man city', 'man utd', 'middlesbrough', 'newcastle', 'norwich', 'nottingham forest', 'oldham', 'portsmouth', 'qpr', 'reading', 'sheffield utd', 'sheffield wed', 'southampton', 'spurs', 'stoke', 'sunderland', 'swansea', 'swindon', 'watford', 'west brom', 'west ham', 'wigan', 'wimbledon', 'wolves'}
+
+AwayTeam: {same set as above}
+
+Stadium: {'amex stadium', 'anfield', 'ayresome park', 'baseball ground', 'bloomfield road', 'boundary park', 'bramall lane', 'britannia stadium', 'burnden park', 'cardiff city stadium', 'carrow road', 'city ground', 'county ground', 'craven cottage', 'dw stadium', 'elland road', 'emirates stadium', 'etihad stadium', 'ewood park', 'filbert street', 'fratton park', 'goodison park', 'highbury', 'highfield road', 'hillsborough', "john smith's stadium", 'kc stadium', 'king power stadium', 'liberty stadium', 'london stadium', 'madejski stadium', 'maine road', 'molineux', 'oakwell', 'old trafford', 'portman road', 'pride park', 'reebok stadium', 'riverside stadium', 'roker park', 'selhurst park', "st andrew's", "st james' park", "st mary's stadium", 'stadium of light', 'stamford bridge', 'the dell', 'the hawthorns', 'the valley', 'turf moor', 'upton park', 'valley parade', 'vicarage road', 'villa park', 'vitality stadium', 'wembley stadium', 'white hart lane'}
+
+Referee: {'alan gunn', 'alan wiley', 'alan wilkie', 'alf buksh', 'andre marriner', "andy d' urso", 'andy madley', 'anthony taylor', 'barry knight', 'bob hamer', 'bob nixon', 'bobby madley', 'brian hill', 'chris foy', 'chris kavanagh', 'clive wilkes', 'craig pawson', 'david allison', 'david coote', 'david crick', 'david elleray', 'david frampton', 'david pugh', 'dermot gallagher', 'eddie wolstenholme', 'frazer stretton', 'gary willard', 'gerald ashby', 'graham barber', 'graham poll', 'graham scott', 'howard king', 'howard webb', 'i mitchell', 'jeff winter', 'jim borrett', 'joe worrall', 'john e martin', 'john key', 'john lloyd', 'jonathan moss', 'keith burge', 'keith cooper', 'keith hackett', 'keith stroud', 'kelvin morton', 'ken redfern', 'keren barratt', 'kevin friend', 'lee mason', 'lee probert', 'mark clattenburg', 'mark halsey', 'martin atkinson', 'martin bodenham', 'matt messias', 'michael jones', 'michael oliver', 'mike dean', 'mike peck', 'mike reed', 'mike riley', 'neale barry', 'neil swarbrick', 'paul alcock', 'paul danson', 'paul durkin', 'paul taylor', 'paul tierney', 'peter foakes', 'peter jones', 'peter walton', 'phil crossley', 'phil dowd', 'philip don', 'philip wright', 'ray bigger', 'ray lewis', 'richard beeby', 'rob harris', 'rob styles', 'robbie hart', 'rodger gifford', 'roger dilkes', 'roger east', 'roger milford', 'ron groves', 'simon hooper', 'steve bennett', 'steve dunn', 'steve lodge', 'steve tanner', 'stuart attwell', 't lloyd', 'terry holbrook', 'tony ward', 'uriah rennie', 'vic callow'}
+
+HomePlayers: {ID(MP), ID(MP), ...}
+
+AwayPlayers: {ID(MP), ID(MP), ...}
+
+HomeScorers: {ID, ID, ...}
+
+AwayScorers: {ID, ID, ...}
+
+Score: HG-AG
+
+
