@@ -26,5 +26,3 @@ As the nature of this project is experimental, there will be limited tests. Howe
 
 * **Joseph Marchant** - *All work* - [joecode0](https://github.com/joecode0)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
