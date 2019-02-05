@@ -1,0 +1,1 @@
+Folder includes all models built during this project. Since models give us insights into the data and the problem more generally, this folder also contains work on modifying the data set for improved performance.

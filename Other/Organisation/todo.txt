@@ -1,9 +1,3 @@
-Rename files
-Re-organise "Utilities" and "Other Stuff" files
-Add top level README.md
-Add README.md to every folder
-Add Project Proposal
-Add Progress Report
 Add Progress Presentation
 
 Finish and update project-overview
