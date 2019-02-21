@@ -3,13 +3,12 @@
 # bias?
 # not evenly split between H,D,A, how do we deal with that/ do we need to?
 # normalisation methods?
-# how many (units) neurons? - smallest best
+# DONE: how many (units) neurons? - smallest best
 # what activation function?
-# how many layers?
-# optimiser?
+# DONE: how many layers?
 # loss function? - 
-# learning rate
-# epochs? - more epochs for more time to train
+# optimiser and learning rate (adam optimizer - modify here)
+# DONE: epochs? - more epochs for more time to train
 # clearly overfitting, how do I reduce this?
 # other things I can tinker with?
 # generate random samples and see what happens to random cases
