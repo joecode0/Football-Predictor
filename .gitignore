@@ -1,4 +1,5 @@
 *.csv
-*/.ipynb_checkpoints
+.ipynb_checkpoints
 /Data Backups
+Other/Deliverables/Images/
 
