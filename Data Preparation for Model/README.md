@@ -1,1 +1,0 @@
-After the data is all merged and cleaned, we need to reformat and translate columns for direct use in training and testing models. This process includes removing string columns, creating numerical columns and adding a target column.

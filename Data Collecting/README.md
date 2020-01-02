@@ -1,1 +1,0 @@
-This folder contains all the code used to collect any data used in this project. Most data collection was done via web scraping, but some data was collected manually. Such data is not included in this repo as I've not included any csv's.

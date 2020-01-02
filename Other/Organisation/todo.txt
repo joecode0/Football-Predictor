@@ -1,9 +1,0 @@
-Add Progress Presentation
-
-Finish and update project-overview
-Complete Progress Presentation
-
-Plan next features to use
-Begin collecting features
-Investigate Keras for NN's
-
