@@ -1,0 +1,29 @@
+# HYPERPARAMETERS
+# dropout?
+# bias?
+# not evenly split between H,D,A, how do we deal with that/ do we need to?
+# normalisation methods?
+# DONE: how many (units) neurons? - smallest best
+# what activation function?
+# DONE: how many layers?
+# loss function? - 
+# optimiser and learning rate (adam optimizer - modify here)
+# DONE: epochs? - more epochs for more time to train
+# clearly overfitting, how do I reduce this?
+# other things I can tinker with?
+# generate random samples and see what happens to random cases
+# if always predicting H for example feature importance, covariance between features too, kl diversions?
+# definitely have a whole section on "feature selection" looks at links between them etc
+
+# next steps:
+# - modify keras NN using all techniques known to minimise loss and maximise accuracy on test set
+# - add lots of extra features to data set
+# - apply best model so far to this data set
+# - at some point apply some other classification methods (what stage should I do this, I was thinking here)
+# - optimize best model on best data set
+# - if happy with results, begin a large evaluation report
+# - else try:
+#    - split data set by "pos_diff" and build separate models for each data set (does this have to be a 
+#      preprocessing step or is there a way to say "if x>y then use NN, else use log reg" etc?)
+#    - more advanced/ creative features
+# begin dissertation
