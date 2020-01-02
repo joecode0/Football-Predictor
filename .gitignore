@@ -1,5 +1,13 @@
 *.csv
 .ipynb_checkpoints
 /Data Backups
-Other/Deliverables/Images/
+Other/Deliverables/Images
+refs.bib
+Other/Figs
+Other/Temp-code
+Other/Organisation
+/dissertation-backups
+Adding Features/a
+.git
+
 
